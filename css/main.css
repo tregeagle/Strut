@@ -1,0 +1,68 @@
+/*@media (min-width: 1200px) {
+	.strut .container {
+		max-width: 940px;
+	}
+}*/
+
+.strut-navbar {
+	background: rgb(13, 24, 32);
+}
+
+.strut-nav > li > a {
+	line-height: 64px;
+	font-size: 24px;
+	font-weight: bold;
+
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.navbar-inverse .strut-nav > li > a {
+	color: #FFF;
+}
+
+.strut-header {
+	padding: 30px 30px 40px;
+	border-bottom: 10px solid rgb(13, 24, 32);
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+	.strut-header {
+		background-image: url('../img/slide-canister.png');
+	}
+}
+
+@media (min-width: 1200px) {
+	.strut-header {
+		background-image: url('../img/slide-canister2.png');
+	}
+}
+
+.strut-header h1 {
+	text-align: right;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.strut-header .btn-strut {
+	text-align: right;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 30px;
+}
+
+.strut-red {
+	color: rgb(178, 28, 8);
+}
+
+.btn-strut {
+	color: #ffffff;
+	background-color: rgb(178, 28, 8);
+	border-color: rgb(178, 28, 8);
+}
+
+body {
+	padding-top: 94px;
+}
