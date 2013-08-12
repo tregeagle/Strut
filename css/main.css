@@ -24,7 +24,8 @@
 .strut-header {
 	padding: 30px 30px 40px;
 	border-bottom: 10px solid rgb(13, 24, 32);
-	background-image: none;
+	/*background-image: none;*/
+	background-image: url('../img/slide-splatter.png');
 	background-repeat: no-repeat;
 }
 
