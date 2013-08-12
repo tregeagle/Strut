@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'sosa';
+	src: url('../font/sosa-regular.woff');
+}
+
+.sosaicon{
+	font-family: 'sosa';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sosaicon-graph:before {
+	content: "I";
+}
+
+.sosaicon-monitor:before {
+	content: "8";
+}
+
+.sosaicon-people:before {
+	content: "Ý";
+}
+
+.sosaicon-white {
+	color: #FFF;
+}

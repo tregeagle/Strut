@@ -4,6 +4,8 @@
 	}
 }*/
 
+@import 'sosa.css';
+
 .strut-navbar {
 	background: rgb(13, 24, 32);
 }
@@ -23,7 +25,7 @@
 
 .strut-header {
 	padding: 30px 30px 40px;
-	border-bottom: 10px solid rgb(13, 24, 32);
+	border-bottom: 15px solid rgb(13, 24, 32);
 	/*background-image: none;*/
 	background-image: url('../img/slide-splatter.png');
 	background-repeat: no-repeat;
@@ -64,6 +66,32 @@
 	border-color: rgb(178, 28, 8);
 }
 
+.strut-info-icon {
+	font-size: 140px;
+	background: rgb(13, 24, 32);
+	border-radius: 97px;
+	width: 194px;
+	height: 194px;
+	color: #FFF;
+	padding: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.strut-info-row {
+	padding: 40px 0px;
+}
+
+.strut-info-row h2 {
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+/*.strut-info-row:nth-child(even) {
+	background: rgb(232, 233, 235);
+}*/
+
 body {
 	padding-top: 94px;
+	-webkit-font-smoothing: antialiased;
 }
